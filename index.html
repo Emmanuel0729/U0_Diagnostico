@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body style="background-color: gray;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">U0 - Diagnostico</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            
+          </div>
+        </div>
+      </nav>
+      <div style="width: 100%; text-align: center;">
+        <div style="width: 50%; height: auto; margin: 0px auto; background-color: aliceblue; -webkit-box-shadow: 0px 5px 15px -2px #000000; box-shadow: 0px 5px 15px -2px #000000; border-radius: 10px;">
+            <nav>
+    
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Usuarios <i class="fas fa-book"></i></button>
+                    <button class="nav-link " id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Registro <i class="fas fa-angle-right"></i></button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+    
+                    <div class="col-md-10" style="margin: 0px auto;">
+                        <table class="table  table-responsive" style="color: black;">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Correo electrónico</th>
+                                    <th scope="col">Avatar</th>
+    
+                                </tr>
+                            </thead>
+                            <tbody id="response">
+    
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+    
+                <div class="tab-pane fade col-md-6" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" style="margin: 0px auto;">
+                    <form action="" style="color: white;">
+                        <div>
+                            <label for="name">Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Nombre">
+    
+                        </div>
+                        <div>
+                            <label for="job">Trabajo</label>
+                            <input type="text" class="form-control" id="job" placeholder="Trabajo">
+    
+                        </div>
+                        
+                        <button type="button" onclick="registro()" class="btn btn-primary" style="margin-top:5%; margin-bottom: 5%;">Registrar</button>
+    
+                    </form>
+                </div>
+            </div>
+    
+          </div>
+      </div>
+
+        
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
